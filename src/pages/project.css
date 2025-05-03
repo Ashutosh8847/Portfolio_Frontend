@@ -1,0 +1,55 @@
+.cardbtn {
+    background-color: rgb(155, 122, 186);
+    text-transform: capitalize;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+
+
+
+.cardbtn:hover {
+    background-color: rgb(215, 197, 197);
+    color: black;
+}
+
+.cardButton:hover {
+    background-color: rgb(215, 197, 197);
+    color: black;
+}
+
+.cardContainer {
+    padding: 20px;
+}
+
+.cardContainer .cardTitle {
+    margin-bottom: 20px;
+}
+
+.cardContainer .card {
+    margin: auto;
+    background-color:whitesmoke;
+}
+.mb-4:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.cardTitle{
+    text-align: center;
+    color:black;
+    font-weight: bold;
+}
+
+.cardImage{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+    color: black;
+    font-size: 30px;
+}
+

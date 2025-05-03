@@ -1,0 +1,28 @@
+.fromContainer { 
+    width: 100%;
+    height: 80%;
+    max-height: 450px;
+    background-image: url(../Image/subscribe-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 9.375rem 0; 
+    border-radius: 1.25rem;
+    opacity: 0.9;
+    color: white;
+    margin-left:4px;
+}
+
+.contactbtn:hover{
+    background-color: rgb(85, 173, 77);
+    color: white;
+    
+}
+
+@media (max-width: 768px) {
+    .contactForm .form-group {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
